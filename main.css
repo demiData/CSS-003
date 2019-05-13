@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: inherit;
+  background-color: whitesmoke;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 10em;
+}
+
+.Card {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Card .thumb {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.Card h1 h3 {
+  font-weight: 700;
+}
+
+.card-intro {
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+  padding: 20px;
+  color: #0d0a1f;
+}
